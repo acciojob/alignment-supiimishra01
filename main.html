@@ -3,10 +3,98 @@
 <html>
 
 <head>
+	<title>HTML Assignment 3</title>
 	<link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
+
+	<table border="1" width="100%" cellspacing="0" cellpadding="5">
+  <tr>
+    <th colspan="3">HTML Assignment #3</th>
+  </tr>
+  <tr>
+    <td align="left">left</td>
+    <td align="center">center</td>
+    <td align="right">right</td>
+  </tr>
+  <tr>
+    <td align="left">left</td>
+    <td align="center">center</td>
+    <td align="right">right</td>
+  </tr>
+  <tr>
+    <td align="left">left</td>
+    <td align="center">center</td>
+    <td align="right">right</td>
+  </tr>
+</table>
+
+<br>
+
+<!-- Nested Table -->
+<table border="1" width="100%" cellspacing="0" cellpadding="10">
+  <!-- First Row: Full width across 6 columns -->
+  <tr>
+    <td colspan="6"></td>
+  </tr>
+
+  <!-- Second Row -->
+  <tr>
+    <td rowspan="4"></td> <!-- Left vertical cell -->
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+
+  <!-- Third Row -->
+  <tr>
+    <td></td>
+    <td></td>
+    <td colspan="2"></td> <!-- Merged two columns in the middle -->
+    <td></td>
+  </tr>
+
+  <!-- Fourth Row -->
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+
+  <!-- Fifth Row -->
+  <tr>
+    <td colspan="6"></td>
+  </tr>
+</table>
+
+
+
+<br>
+
+<!-- Green header -->
+<table width="100%" border="1" cellspacing="0" cellpadding="20">
+  <tr bgcolor="green">
+    <td></td>
+  </tr>
+
+  <!-- Image Row -->
+  <tr>
+    <td align="center">
+      <img src="https://www2.d125.org/applied_arts/teched/courses/WEB/portfolios/2013_FallP3/Luthra%20Portfolio/images-1.jpeg" alt="img">
+    </td>
+  </tr>
+
+  <!-- Blue footer -->
+  <tr bgcolor="blue">
+    <td></td>
+  </tr>
+</table>
+
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
