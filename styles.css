@@ -1,6 +1,14 @@
 /*  your css code here. If applicable */
-#table-1 {
-      border: 1px solid black;
+.middle {
+      margin: 0 auto;
+    }
+
+    .center {
+      text-align: center;
+    }
+
+    #table-1 {
+      border: 1px solid black !important;
       border-collapse: collapse;
     }
 
