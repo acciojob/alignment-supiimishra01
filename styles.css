@@ -8,11 +8,11 @@
     }
 
     #table-1 {
-  border: 1px solid black ;
+  /* border: 1px solid black ; */
   /* border-collapse: collapse; */
 }
 
 #table-1 td,
 #table-1 th {
-  border: 1px solid black ;
+  /* border: 1px solid black ; */
 }
